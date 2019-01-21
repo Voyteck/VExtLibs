@@ -5,7 +5,7 @@
 			"homepage" : "https://github.com/Voyteck"
 		}
 	],
-	"name" : "Voyteck/VExtLibs",
+	"name" : "voyteck/extlibs",
 	"description" : "Functions used by other packages prepared within Voyteck repository",
 	"type" : "zend-module",
 	"homepage" : "https://github.com/Voyteck/VExtLibs",

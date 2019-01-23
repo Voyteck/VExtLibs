@@ -11,7 +11,8 @@
 	"homepage" : "https://github.com/Voyteck/VExtLibs",
 	"license" : "MIT",
 	"require" : {
-		"php" : "^5.5.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0"
+		"php" : "^5.5.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0",
+		"zendframework/zend-view" : "~2.11"
 	},
 	"autoload" : {
 		"psr-4" : {

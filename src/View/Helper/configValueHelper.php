@@ -3,6 +3,12 @@ namespace Voyteck\VExtLib\View\Helper;
 
 use \Zend\View\Helper\AbstractHelper;
 
+/**
+ * Helper allowing to display configuration value
+ * 
+ * @author zielinw1
+ *
+ */
 class configValueHelper extends AbstractHelper {
 
     const LAZYFACTORY_INCLUDE_CONFIG = 'Config';

@@ -1,5 +1,5 @@
 <?php
-namespace Voyteck\VExtLib\View\Helper;
+namespace Voyteck\VExtLibs\View\Helper;
 
 use \Zend\View\Helper\AbstractHelper;
 

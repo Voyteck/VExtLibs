@@ -12,15 +12,15 @@ Class delivers static functions for various purposes
 
 ### Function Voyteck/ExtLibs::byteOn(int $value, int ...$bytes)
 Functions returns TRUE if within $value bytes mentioned in (varied number) $bytes are ON.
-For example number 5 can be split into bytes 1*1 + 0*2 + 1*4 - which means bytes 1 and 4 are ON.
+For example number 5 can be split into bytes 1x1 + 0x2 + 1x4 - which means bytes 1 and 4 are ON.
 This way within single integer number it is possible to write number of ON/OFF options.
 
 #### Usage examples 
-* Voyteck\VExtLibs::byteOn(5, 1) will return TRUE. 
-* Voyteck\VExtLibs::byteOn(5, 1, 4) will return TRUE.
-* Voyteck\VExtLibs::byteOn(5, 2) will return FALSE.
+* Voyteck\ExtLibs::byteOn(5, 1) will return TRUE. 
+* Voyteck\ExtLibs::byteOn(5, 1, 4) will return TRUE.
+* Voyteck\ExtLibs::byteOn(5, 2) will return FALSE.
 
-## View Helper Voyteck/ExtLibs/configValueHelper
+## View Helper Voyteck/VExtLibs/configValueHelper
 A simple helper that once invoked will retrieve (and print on screen) a configuration value
 Helper should be invoved with parameters:
 __invoke(array $configPath = [], $quoteStrings = true)

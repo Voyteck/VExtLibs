@@ -20,6 +20,9 @@ This way within single integer number it is possible to write number of ON/OFF o
 * Voyteck\ExtLibs::byteOn(5, 1, 4) will return TRUE.
 * Voyteck\ExtLibs::byteOn(5, 2) will return FALSE.
 
+### Function Voyteck/ExtLibs::generateRandomString($length = 10)
+Allows to create random string of various length
+
 ## View Helper Voyteck/VExtLibs/configValueHelper
 A simple helper that once invoked will retrieve (and print on screen) a configuration value
 Helper should be invoved with parameters:

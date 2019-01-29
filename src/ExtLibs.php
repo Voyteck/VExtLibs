@@ -26,5 +26,22 @@ class ExtLibs
             $returnValue = $returnValue || (($value & $byte) == $byte);
         return $returnValue;
     }
+    
+    /**
+     * Allows to create random string of various length
+     * @link https://stackoverflow.com/questions/4356289/php-random-string-generator
+     * 
+     * @param number $length
+     * @return string
+     */
+    public static function generateRandomString($length = 10) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
 }
 

@@ -22,7 +22,7 @@ class configValueHelper extends AbstractHelper {
      */
     public function __invoke(array $configPath = [], $quoteStrings = true) {
         $currentConfigValue = $this->Config;
-        if (sizeof($configPath) > 0)
+        if (count($configPath) > 0)
             foreach($configPath as $configKey)
                 $currentConfigValue = $currentConfigValue[$configKey];
         

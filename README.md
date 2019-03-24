@@ -1,4 +1,7 @@
 # VExtLibs
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da2eaba85ee642abbdd10f29165065c0)](https://app.codacy.com/app/Voyteck/VExtLibs?utm_source=github.com&utm_medium=referral&utm_content=Voyteck/VExtLibs&utm_campaign=Badge_Grade_Dashboard)
+
 Classes and functions that extends PHP/ZF3 functionalities
 
 ## Installation
